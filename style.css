@@ -15,6 +15,6 @@ table, th, td {
   }
   #clip {
     position: absolute;
-    clip: rect(0px, 138px, 240px, 0px);
+    clip: rect(0px, 0px, 240px, 0px);
     /* clip: shape(top, right, bottom, left); NB 'rect' is the only available option */
   }
