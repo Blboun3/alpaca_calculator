@@ -1,0 +1,11 @@
+table, th, td {
+    border-collapse: collapse;
+}
+
+.hasBtn {
+    text-align: center;
+}
+
+.last {
+    text-align: end;
+}

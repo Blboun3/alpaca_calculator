@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>najs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Alpaka kalkulátor</h1>
+
+    <img src="Lama.jpg" alt="Alpaka">
+
+    <h2>Zadejte hodnoty a kalkulátor vám řekne vaši cenu v Alpakách</h2>
+    <!-- Inputy -->
+    <table>
+        <tr>
+            <td><label for="age">Věk:</label></td>
+            <td><input type="number" name="age" id="age" min=1 max=128 value=18> </td>
+            <td class="last"><label for="age">let</label></td>
+        </tr>
+        <tr>
+            <td><label for="height">Výška:</label></td>
+            <td><input type="number" name="height" id="height" min=64 max=256 value=160></td>
+            <td class="last"><label for="height">cm</label></td>
+        </tr>
+        <tr>
+            <td><label for="weight">Váha:</label></td>
+            <td><input type="number" name="weight" id="weight" min=16 max=256 value=55></td>
+            <td class="last"><label for="weight">kg</label></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="hasBtn"><button id="calculate">Kalkulovat</button></td>
+            <td></td>
+        </tr>
+    </table>
+    <p id="output"></p>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
