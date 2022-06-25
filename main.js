@@ -21,4 +21,15 @@ el_btn_calc.click(function() {
     
     //console.log(y);
     $("#output").text(`Vaše cena v Alpakách je ${y} Alpak`);
+
+    var html = "";
+    for(let i = 0; i < Math.floor(y); i++) {
+        html += `<img src="Lama.jpg" alt="Alpaka">`
+    }
+    let n = (100*outputVal/1).toFixed(1) - Math.floor((100*outputVal/1).toFixed(3));
+    
+    let sideX = 220
+    let final = Math.round(sideX * n);
+    $("#alpaca_counter").html(html);
+    $("#clip").css("clip",`rect(0px, ${final}px, 240px, 0px)`);
 });

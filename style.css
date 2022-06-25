@@ -9,3 +9,12 @@ table, th, td {
 .last {
     text-align: end;
 }
+
+.container {
+    position: relative;
+  }
+  #clip {
+    position: absolute;
+    clip: rect(0px, 138px, 240px, 0px);
+    /* clip: shape(top, right, bottom, left); NB 'rect' is the only available option */
+  }
